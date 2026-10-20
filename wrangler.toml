@@ -1,3 +1,10 @@
 name = "openapi-demo"
 main = "src/index.ts"
 compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "openapi-demo-db"
+# For deploy: run `npx wrangler d1 create openapi-demo-db` and paste the real id here
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
