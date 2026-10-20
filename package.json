@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-openapi-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "chanfana": "^2.8.0",
+    "hono": "^4.6.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
